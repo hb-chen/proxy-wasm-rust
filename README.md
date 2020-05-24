@@ -1,0 +1,1 @@
+# wasm-hello-world-rust
