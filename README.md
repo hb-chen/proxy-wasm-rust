@@ -1,8 +1,9 @@
 # Istio Wasm Rust Demo
 
-安装依赖
-```shell script
-cargo build
+Add new target
+```shell
+rustup update
+rustup target add wasm32-unknown-unknown
 ```
 
 编译

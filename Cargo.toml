@@ -8,8 +8,7 @@ edition = "2018"
 
 [dependencies]
 log = "0.4.8"
-proxy-wasm = "0.1.0" # The Rust SDK for proxy-wasm
-prometheus = "0.8"
+proxy-wasm = "0.1.3" # The Rust SDK for proxy-wasm
 
 [lib]
 path = "src/lib.rs"
