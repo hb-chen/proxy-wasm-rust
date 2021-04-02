@@ -58,5 +58,5 @@ wasme build precompiled target/wasm32-unknown-unknown/release/hello_world.wasm -
 ```shell script
 make wasme.deploy
 # or
-wasme deploy envoy webassemblyhub.io/hbchen/hello_world:v0.1 --envoy-image=istio/proxyv2:1.6.0 --bootstrap=envoy-bootstrap.yml
+wasme deploy envoy webassemblyhub.io/hbchen/hello_world:v0.1 --envoy-image=istio/proxyv2:1.8.4 --bootstrap=envoy-bootstrap.yml
 ```
